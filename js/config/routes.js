@@ -12,6 +12,10 @@
     $urlRouterProvider.otherwise('/home');
 
     $stateProvider
+      .state('home', {
+        url: '/home',
+        templateUrl: 'js/templates/home.html'
+      })
       .state('ministries', {
         url: '/ministries',
         templateUrl: 'js/templates/ministries.html'

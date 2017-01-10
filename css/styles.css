@@ -1,3 +1,36 @@
 body {
-  background-color: pink; 
+  background-color: rgba(250, 250, 250, 1);
+}
+
+
+.sandcastleB {
+  background-color: rgba(222,209,109,.7);
+}
+
+.sandcastleT {
+  color: rgba(222,209,109,.7);
+}
+
+.deepBrownB{
+  background-color: rgba(107,84,71,.9);
+}
+
+.deepBrownT{
+  color: rgba(107,84,71,.9);
+}
+
+.wholeWheatB {
+  background-color: rgba(158,134,111,.9);
+}
+
+.wholeWheatT {
+  color: rgba(158,134,111,.9);
+}
+
+.pebbleWalkB {
+  background-color: rgba(169,172,161,.9);
+}
+
+.pebbleWalkT {
+  color: rgba(169,172,161,.9);
 }

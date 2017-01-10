@@ -20,6 +20,33 @@
   </head>
 
   <body>
+    <nav class="nav-extended">
+      <div class="nav-wrapper">
+        <a href="#" class="brand-logo">The Well</a>
+        <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+        <ul id="nav-mobile" class="right hide-on-med-and-down">
+          <li><a ui-sref="home">Home</a></li>
+          <li><a ui-sref="ministries">Ministries</a></li>
+          <li><a ui-sref="ourTeam">Our Team </a></li>
+          <li><a ui-sref="media">Media</a></li>
+          <li><a ui-sref="contact">Contact Us</a></li>
+        </ul>
+        <ul class="side-nav" id="mobile-demo">
+          <li><a ui-sref="home">Home</a></li>
+          <li><a ui-sref="ministries">Ministries</a></li>
+          <li><a ui-sref="ourTeam">Our Team </a></li>
+          <li><a ui-sref="media">Media</a></li>
+          <li><a ui-sref="contact">Contact Us</a></li>
+        </ul>
+
+        <ul class="tabs tabs-transparent">
+          <li class="tab"><a href="#test1">Service Times</a></li>
+          <li class="tab"><a class="active" href="#test2">Next Steps</a></li>
+          <li class="tab"><a href="#test3">Prayer Requests</a></li>
+          <li class="tab"><a href="#test4">About</a></li>
+        </ul>
+      </div>
+    </nav>
 
 
     <main ui-view></main>
