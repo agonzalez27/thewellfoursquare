@@ -2,10 +2,6 @@ body {
   background-color: rgba(250, 250, 250, 1);
 }
 
-.parallax-container {
-      height: 600px;
-    }
-
 .section {
   height: 350px;
 }
@@ -14,16 +10,47 @@ body {
   border: 2px solid black;
 }*/
 
-#wellLogo {
+.standardParallax {
+
+    /* Set a specific height */
+    height: 600px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.home1 {
+  background-image: url("../assets/img/theWellPng.png");
+}
+
+.home2 {
+  background-image: url("../assets/img/trees.png");
   height: 300px;
 }
 
-#logoWrapper {
-  margin-top: 125px;
+.home3 {
+  background-image: url("../assets/img/oranges.png");
+  height: 300px;
+}
+
+#wellLogo {
+  height: 300px;
+  margin-top: 150px;
 }
 
 .missionRow {
   text-align: center;
+}
+
+#spanish {
+  margin-left: 15px;
+}
+
+#english {
+  margin-right: 15px;
 }
 
 .mission {
@@ -32,16 +59,29 @@ body {
   width: 275px;
   border-radius: 25px;
   border: 5px solid rgba(107,84,71,.9);
-  padding-top: 12px; 
+}
+
+#missionPadding {
+  padding-top: 12px;
 }
 
 .mission:hover {
   border: 5px solid rgba(222,209,109,.7);
 }
 
+.serviceTimes:hover {
+  border: 5px solid rgba(222,209,109,.7);
+}
+
 #exchange {
   margin-left: 25px;
   margin-right: 25px;
+  padding-top: 12px;
+}
+
+#elements {
+  margin-left: 25px;
+  margin-right: 25px; 
 }
 
 .sandcastleB {

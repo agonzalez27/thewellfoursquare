@@ -32,5 +32,17 @@
         url: '/contact',
         templateUrl: 'js/templates/contact.html'
       })
+      .state('bibleStudy', {
+        url: '/biblestudy',
+        templateUrl: 'js/templates/bibleStudy.html'
+      })
+      .state('youth', {
+        url: '/youth',
+        templateUrl: 'js/templates/youth.html'
+      })
+      .state('kids', {
+        url: '/kids',
+        templateUrl: 'js/templates/kids.html'
+      })
   }
 }());

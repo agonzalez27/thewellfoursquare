@@ -1,6 +1,5 @@
-<div class="parallax-container">
-  <div class="parallax"><img ng-src="assets/img/theWellPng.png"></div>
-  <div class="center" id="logoWrapper"><img ng-src="assets/img/theWellFinal.png" alt="The Well Logo" id="wellLogo"></div>
+<div class="standardParallax home1">
+  <div class="center"><img ng-src="assets/img/theWellFinal.png" alt="The Well Logo" id="wellLogo"></div>
 </div>
 <div class="section white">
   <div class="row">
@@ -9,21 +8,37 @@
     </div>
   </div>
   <div class="row missionRow">
-      <div class="mission"><h3 class="center">Reach</h3></div>
+      <div class="mission" id="missionPadding"><h3 class="center">Reach</h3></div>
       <div class="mission" id="exchange"><h3 class="center">Exchange</h3></div>
-      <div class="mission"><h3 class="center">Mentor</h3></div>
+      <div class="mission" id="missionPadding"><h3 class="center">Mentor</h3></div>
   </div>
 </div>
 
-<div class="parallax-container">
-  <div class="parallax"><img ng-src="assets/img/trees.png"></div>
-</div>
-<div class="parallax-container">
-  <div class="parallax"><img ng-src="assets/img/valley.png"></div>
+<div class="standardParallax home2"></div>
+
+<div class="section white">
+  <div class="row">
+    <div class="col s12 m12 l12">
+      <h1 class="header center deepBrownT">Service Times</h1>
+    </div>
+  </div>
+  <div class="row missionRow">
+      <div class="mission" id="english"><h3 class="center">English <br> 10:00am</h3></div>
+      <div class="mission" id="spanish"><h3 class="center">Spanish <br> 1:30pm</h3></div>
+  </div>
 </div>
 
-<script>
-  $(document).ready(function(){
-     $(".parallax").parallax();
-  });
-</script>
+<div class="standardParallax home3"></div>
+
+<div class="section white">
+  <div class="row">
+    <div class="col s12 m12 l12">
+      <h1 class="header center deepBrownT">Next Steps</h1>
+    </div>
+  </div>
+  <div class="row missionRow">
+      <a ui-sref="bibleStudy"><div class="mission"><h3 class="center">Bible <br> Study</h3></div></a>
+      <a ui-sref="youth"><div class="mission" id="elements"><h3 class="center">Elements <br> Youth Group</h3></div></a>
+      <a ui-sref="kids"><div class="mission"><h3 class="center">Kingdom Kids</h3></div></a>
+  </div>
+</div>
