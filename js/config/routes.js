@@ -44,5 +44,13 @@
         url: '/kids',
         templateUrl: 'js/templates/kids.html'
       })
+      .state('ourStory', {
+        url: '/ourstory',
+        templateUrl: 'js/templates/ourStory.html'
+      })
+      .state('values', {
+        url: '/values',
+        templateUrl: 'js/templates/values.html'
+      })
   }
 }());
