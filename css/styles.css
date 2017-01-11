@@ -36,6 +36,15 @@ body {
   height: 300px;
 }
 
+.home4 {
+  background-image: url("../assets/img/well.png");
+  height: 300px;
+}
+
+#prayerRequest {
+  height: 600px; 
+}
+
 #wellLogo {
   height: 300px;
   margin-top: 150px;
@@ -81,7 +90,7 @@ body {
 
 #elements {
   margin-left: 25px;
-  margin-right: 25px; 
+  margin-right: 25px;
 }
 
 .sandcastleB {
