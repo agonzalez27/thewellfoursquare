@@ -2,6 +2,47 @@ body {
   background-color: rgba(250, 250, 250, 1);
 }
 
+.parallax-container {
+      height: 600px;
+    }
+
+.section {
+  height: 350px;
+}
+
+/*div {
+  border: 2px solid black;
+}*/
+
+#wellLogo {
+  height: 300px;
+}
+
+#logoWrapper {
+  margin-top: 125px;
+}
+
+.missionRow {
+  text-align: center;
+}
+
+.mission {
+  display: inline-block;
+  height: 150px;
+  width: 275px;
+  border-radius: 25px;
+  border: 5px solid rgba(107,84,71,.9);
+  padding-top: 12px; 
+}
+
+.mission:hover {
+  border: 5px solid rgba(222,209,109,.7);
+}
+
+#exchange {
+  margin-left: 25px;
+  margin-right: 25px;
+}
 
 .sandcastleB {
   background-color: rgba(222,209,109,.7);
