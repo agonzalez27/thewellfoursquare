@@ -6,11 +6,15 @@ body {
   height: 350px;
 }
 
+#easyTithe {
+  margin-top: 85px; 
+}
+
 #wellLogoNav {
   height: 75px;
   padding-top: 10px;
   padding-bottom: 10px;
-  padding-left: 10px; 
+  padding-left: 10px;
 }
 
 /*div {
