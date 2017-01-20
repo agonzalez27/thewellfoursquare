@@ -7,7 +7,7 @@ body {
 }
 
 #easyTithe {
-  margin-top: 85px; 
+  margin-top: 85px;
 }
 
 #wellLogoNav {
@@ -32,6 +32,8 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+
 
 .home1 {
   background-image: url("../assets/img/theWellPng.png");
@@ -81,6 +83,7 @@ body {
 h5 {
   color: rgba(107,84,71,.9);
 }
+
 #missionPadding {
   padding-top: 12px;
 }
@@ -151,36 +154,78 @@ h5 {
   }
 
 @media screen and (max-width: 400px) {
+
   .standardParallax {
-
-      /* Set a specific height */
-      height: 600px;
-
-      /* Create the parallax scrolling effect */
-      background-attachment: fixed;
-      background-position: center;
-      background-repeat: no-repeat;
-      background-size: cover;
+    background-attachment: scroll;
+    height: 175px;
   }
+
   #wellLogo {
-    height: 125px;
-    margin-top: 175px;
+    height: 100px;
+    margin-top: 40px;
   }
-  .home1 {
-    background-image: url("../assets/img/sanctuaryS.png");
+
+  h1 {
+  font-size: 30px;
+
   }
 
   .mission {
-    display: inline-block;
-    height: 50px;
-    width: 150px;
+    display: block;
+    margin: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 70px;
+    width: 175px;
     border-radius: 25px;
     border: 5px solid rgba(107,84,71,.9);
   }
 
   h5 {
-    font-size: 15px;
+    font-size: 20px;
   }
+
+  #spanish {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #english {
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  #missionPadding {
+    padding-top: 0px;
+  }
+
+  #exchange {
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 0px;
+  }
+
+  #elements {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .margin1 {
+    margin-bottom: 5px;
+  }
+
+  .section {
+    height: 375px;
+  }
+
+  #section1 {
+    height: 400px;
+  }
+
+  .section2 {
+    height: 300px;
+  }
+
 
 
 
