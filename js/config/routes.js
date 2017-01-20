@@ -14,7 +14,9 @@
     $stateProvider
       .state('home', {
         url: '/home',
-        templateUrl: 'js/templates/home.html'
+        templateUrl: 'js/templates/home.html',
+        controller: 'HomeController',
+        controllerAs: 'Home'
       })
       .state('ministries', {
         url: '/ministries',
