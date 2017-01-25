@@ -7,7 +7,7 @@ body {
 }
 
 #homeUl {
-  font-size: 50px; 
+  font-size: 50px;
 }
 
 .section {
@@ -148,9 +148,6 @@ h5 {
 }
 
 
-
-/*Responsive*/
-
 /*Responsive*/
 @media screen and (max-width: 768px) {
   #wellLogo {
@@ -162,7 +159,7 @@ h5 {
     background-image: url("../assets/img/sanctuaryS.png");
   }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 480px) {
 
   .standardParallax {
     background-attachment: scroll;
