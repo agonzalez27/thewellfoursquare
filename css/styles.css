@@ -59,6 +59,10 @@ body {
   background-image: url("../assets/img/well.png");
 }
 
+.ourStory1 {
+  background-image: url("../assets/img/santaPaulaFoursquare2.jpg");
+}
+
 #prayerRequest {
   height: 600px;
 }
@@ -158,6 +162,8 @@ h5 {
   .home1 {
     background-image: url("../assets/img/sanctuaryS.png");
   }
+  
+}
 
 @media screen and (max-width: 480px) {
 
@@ -231,8 +237,5 @@ h5 {
   .section2 {
     height: 300px;
   }
-
-
-
 
 }
