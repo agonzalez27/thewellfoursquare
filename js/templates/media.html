@@ -1,1 +1,8 @@
-<h1>Media</h1>
+<div>
+  <h1 class="center">Media</h1>
+</div>
+
+
+<div ng-repeat="link in MediaVm.links">
+  <iframe width="100%" ng-src="{{getIframeSrc(link)}}" frameborder="0 " allowfullscreen></iframe>
+</div>

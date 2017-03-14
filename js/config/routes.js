@@ -18,17 +18,15 @@
         controller: 'HomeController',
         controllerAs: 'Home'
       })
-      .state('ministries', {
-        url: '/ministries',
-        templateUrl: 'js/templates/ministries.html'
-      })
       .state('ourTeam', {
         url: '/ourteam',
         templateUrl: 'js/templates/ourTeam.html'
       })
       .state('media', {
         url: '/media',
-        templateUrl: 'js/templates/media.html'
+        templateUrl: 'js/templates/media.html',
+        controller: 'MediaController',
+        controllerAs: 'MediaVm'
       })
       .state('contact', {
         url: '/contact',
