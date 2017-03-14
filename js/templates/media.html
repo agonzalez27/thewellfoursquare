@@ -2,7 +2,8 @@
   <h1 class="center">Media</h1>
 </div>
 
-
 <div ng-repeat="link in MediaVm.links">
-  <iframe width="100%" ng-src="{{getIframeSrc(link)}}" frameborder="0 " allowfullscreen></iframe>
+  <div class="vidFrame">
+    <iframe width="100%" height="500px" ng-src="{{MediaVm.getIframeSrc(link)}}" frameborder="0" allowfullscreen></iframe>
+  </div>
 </div>

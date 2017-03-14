@@ -3,12 +3,7 @@
 
       angular.module('theWell')
       .controller('MediaController', MediaController)
-      .config(function($sceDelegateProvider) {
-        $sceDelegateProvider.resourceUrlWhitelist([
-          'self',
-          'https://www.youtube.com/**'
-        ]);
-      });
+
 
       MediaController.$inject = ['$http']
 
@@ -23,7 +18,7 @@
       }).then(function (youtubeData) {
         vm.videos = youtubeData.data
         var items = vm.videos.items
-        for(var i = 0; i < items.length; i++) {
+        for(var i = 0; i < items.length -1; i++) {
           vm.links.push(items[i].id.videoId)
         }
       }, function (response) {
@@ -31,8 +26,8 @@
 
       });
 
-      vm.getIframeSrc = function(links) {
-        return 'https://www.youtube.com/embed/' + links;
+      vm.getIframeSrc = function(src) {
+        return 'https://www.youtube.com/embed/' + src;
       };
 
         console.log(vm.links)
