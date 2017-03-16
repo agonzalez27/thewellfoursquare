@@ -30,8 +30,6 @@
         return 'https://www.youtube.com/embed/' + src;
       };
 
-        console.log(vm.links)
-
     }
 
   }());

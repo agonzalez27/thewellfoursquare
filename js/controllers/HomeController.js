@@ -20,7 +20,6 @@
             contactEmail : vm.contactEmail,
             contactMsg : vm.contactMsg
         });
-        console.log(data)
         // Simple POST request example (passing data) :
         $http.post('https://thewellbackend.herokuapp.com/api/prayerRequest', data).
             success(function(data, status, headers, config) {
