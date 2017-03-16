@@ -22,7 +22,7 @@
         });
         console.log(data)
         // Simple POST request example (passing data) :
-        $http.post('http://localhost:3000/api/prayerRequest', data).
+        $http.post('https://thewellbackend.herokuapp.com/api/prayerRequest', data).
             success(function(data, status, headers, config) {
                 // vm callback will be called asynchronously
                 // when the response is available

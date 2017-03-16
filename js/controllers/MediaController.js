@@ -14,7 +14,7 @@
 
       $http({
       method: 'GET',
-      url: 'http://localhost:3000/api/mediaRequest'
+      url: 'https://thewellbackend.herokuapp.com/api/mediaRequest'
       }).then(function (youtubeData) {
         vm.videos = youtubeData.data
         var items = vm.videos.items
