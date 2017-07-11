@@ -18,7 +18,7 @@
       }).then(function (youtubeData) {
         vm.videos = youtubeData.data
         var items = vm.videos.items
-        for(var i = 0; i < items.length -1; i++) {
+        for(var i = 0; i < 6 -1; i++) {
           vm.links.push(items[i].id.videoId)
         }
       }, function (response) {
